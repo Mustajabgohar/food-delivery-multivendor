@@ -11,6 +11,7 @@ const SAVE_WEB_CONFIGURATION = gql`
   ${saveWebConfiguration}
 `
 
+
 function WebConfiguration(props) {
   const formRef = useRef()
 
